@@ -25,3 +25,4 @@ sudo apt-get install jenkins
 EC2 > Instances > Click on In the bottom tabs -> Click on Security
 Security groups
 Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed All traffic).
+![image](https://github.com/kirancgwd/Devops/assets/115028535/150c643f-db22-4e60-a8ac-d7f1cf15e71d)
