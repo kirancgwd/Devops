@@ -81,6 +81,8 @@ Step 7: Create a systemd Unit File
 We will need to create a new unit file to run Tomcat as a service.
 Open your text editor and create a file name tomcat.service in the /etc/systemd/system/:
 
+sudo update-java-alternatives -l 
+
 $ sudo nano /etc/systemd/system/tomcat.service
 Next, paste the following configuration:
 
