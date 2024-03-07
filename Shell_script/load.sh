@@ -1,6 +1,6 @@
 ##!/bin/bash
 # This script is the quick check to detect whether the performance issue is due to CPU, Memory, Input/Output (I/O), and network error 
-# This script should work on both CentOS and macOS
+## This script should work on both CentOS and macOS
 
 
 # Check if the load average is greater than 70% of the CPU cores
