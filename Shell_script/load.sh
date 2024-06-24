@@ -1,9 +1,9 @@
 ##!/bin/bash
-# This script is the quick check to detect whether the performance issue is due to CPU, Memory, Input/Output (I/O), and network error 
-## This script should work on both CentOS and macOS
+###This script is the quick check to detect whether the performance issue is due to CPU, Memory, Input/Output (I/O), and network error 
+##This script should work on both CentOS and macOS
 
 
-# Check if the load average is greater than 70% of the CPU cores
+# ###heck if the load average is greater than 70% of the CPU cores
 load_avg=$(w | head -n 1 | awk '{print $8}' |cut -f1 -d",")
 num_cores=$(nproc)
 max_load=$(echo "0.7 * $num_cores" | bc)
